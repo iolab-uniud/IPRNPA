@@ -12,8 +12,9 @@ It also includes the best solutions found by our **Multi-Neighborhood Simulated 
 ## Prerequistes
 
 - C++ (version >= 14)
-- Boost (see download options at https://www.boost.org/)
-- EasyLocal 3 (available at https://bitbucket.org/satt/easylocal-3)
+- Boost (see download options [here](https://www.boost.org/))
+- EasyLocal++ 3 (available [here](https://bitbucket.org/satt/easylocal-3))
+- json.hpp (available [here](https://github.com/nlohmann/json/blob/develop/single_include/nlohmann/json.hpp)) should be included in the path.
 
 ## Solver
 
