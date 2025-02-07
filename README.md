@@ -4,14 +4,16 @@ I need to write a README.md that explains how to compile
 # IPRNPA Solver
 ## Overview
 
-This repository contains the local search-based software developed to solve the **Integrated Patient-to-Room and Nurse-to-Patient Assignment (IPRNPA)** problem, as proposed by Brandt et al. in their paper ["Integrated patient-to-room and
-nurse-to-patient assignment in hospital wards"](https://arxiv.org/abs/2309.10739).
 
-It also includes the best solutions found by our **Multi-Neighborhood Simulated Annealing** solver for the instances provided in the dataset available at [IPRNPA Instance Generator](https://github.com/TLKT0M/IPRNPA_instance_generator).
+This repository contains the local search-based software described in the paper [**Multi-neighborhood simulated annealing for the integrated patient-to-room and nurse-to-patient assignment problem**](https://link.springer.com/article/10.1007/s10696-025-09591-z) by Eugenia Zanazzo, Sara Ceschia, and Andrea Schaerf;
+developed to solve the **Integrated Patient-to-Room and Nurse-to-Patient Assignment (IPRNPA)** problem, as proposed by Brandt et al. in their paper ["Integrated patient-to-room and
+nurse-to-patient assignment in hospital wards"](https://link.springer.com/article/10.1007/s00291-024-00800-z).
+
+It also includes the best solutions found by our **Multi-Neighborhood Simulated Annealing** method for the instances provided in the dataset available at [IPRNPA Instance Generator](https://github.com/TLKT0M/IPRNPA_instance_generator).
 
 ## Prerequistes
 
-- C++ (version >= 14)
+- C++ (version >= C++14)
 - Boost (see download options [here](https://www.boost.org/))
 - EasyLocal++ 3 (available [here](https://bitbucket.org/satt/easylocal-3))
 - json.hpp (available [here](https://github.com/nlohmann/json/blob/develop/single_include/nlohmann/json.hpp)) should be included in the path.
